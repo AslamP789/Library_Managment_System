@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+}
+.booklist{
+    
+    background-image: url("https://media.istockphoto.com/id/912611506/photo/books.jpg?s=612x612&w=0&k=20&c=ZXhY10GScmFVIawGH20HWAYrfu78pBmU-CpcV7e5c9o=");
+    padding: 10px;
+     opacity: 0.9;
+}
+.booklist h1{
+    color: white;
+    text-align: center;
+}
+.books_section{
+   
+    text-align: center;
+}
+.books{
+    display: inline-block;
+    width: 1000px;
+    height: 300px;
+    background-color: white;
+    margin: 15px;
+    text-align: left;
+    border-radius: 12px;
+    box-shadow: 8px 8px 8px black;
+    
+}
+.books button{
+    padding: 10px 18px;
+    border: none;
+   border-radius: 8px;
+   font-weight: bold;
+    margin-top: 40px;  
+    color: rgb(174, 71, 71);
+   background-color: white;
+   box-shadow: 0px 2px 3px black;
+    margin-left: 10px;
+   
+
+}
+#btnread{
+    margin-left: 140px;
+}
+.books button:hover{
+   background-color: rgb(183, 66, 66); 
+   color: white;
+}
+.books_card{
+    display: flex;
+    
+}
+.book_image img{
+    height:300px ;
+    width:300px ;
+    padding-left: 10px;
+}
+.books_data{
+    padding-left: 40px;
+}
