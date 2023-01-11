@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import '../styles/BookList.css'
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const BookList = () => {
     let [books, setBooks] = useState([])
-    let navigate=useNavigate();
+    let navigate = useNavigate();
+    let location = useLocation();
     useEffect(() => {
         let fetchData = async () => {
             let response = await fetch("http://localhost:4567/books")
@@ -15,13 +16,17 @@ const BookList = () => {
     }, [books])
     let handleDelete = (id, title) => {
         // setBooks(books.filter(x => x.id !== id))
-        fetch(`http://localhost:4567/books/${id}`,{
-            method:`DELETE`
+        fetch(`http://localhost:4567/books/${id}`, {
+            method: `DELETE`
         })
         alert(`${title} has been deleted`)
     }
-    let readmore=(id)=>{
+    let readmore = (id) => {
+       if (location.pathname=='/admin/book_list') {
         navigate(`/admin/book_list/${id}`)
+       } else {
+         navigate(`/user/book_list/${id}`)
+       }
     }
     return (
         <div className="booklist">
@@ -37,11 +42,11 @@ const BookList = () => {
                                 </div>
                                 <div className="books_data">
                                     <h2>{data.title}</h2>
-                                    <p><b>Authors:</b> {data.authors.toString()}</p> 
+                                    <p><b>Authors:</b> {data.authors.toString()}</p>
                                     <p><b>Category:</b> {data.categories.toString()}</p>
                                     <p><b>Page Count:</b>{data.pageCount}</p>
-                                    <button id="btnread" onClick={()=>readmore(data.id)}>Read more</button>
-                                    <button onClick={() => handleDelete(data.id, data.title)} >Delete</button>
+                                    <button id="btnread" onClick={() => readmore(data.id)}>Read more</button>
+                                    {location.pathname == '/admin/book_list' && <button onClick={() => handleDelete(data.id, data.title)} >Delete</button>}
                                 </div>
                             </div>
 

@@ -1,17 +1,54 @@
-.form{
-    height: 700px;
-    width: 900px;
-    background-color: antiquewhite;
-    margin-left: 340px;
-    margin-top: 40px;
+.addbook{
+    background-image: url("https://miro.medium.com/max/1200/0*mMD5SlIbFvgkGo3l");
+    opacity: 0.9;
+    height: 670px;
+}
+.addbook_card{
+    height: 620px;
+    width: 500px;
+    margin-left: 500px;
     text-align: center;
-    
+    background-color: rgba(236, 236, 236, 0.903);
+    padding-top: 30px;
+    box-shadow: 3px 3px 3px black;
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+.addhead{
+padding-top: 16px;
 }
 .form input{
-    margin-top: 8px;
+    margin-top: 14px;
     height: 30px;
-    width: 600px;
+    width: 400px;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 0px 4px 5px black;
+    border: none;
+    outline: none;
+}
+.form textarea{
+    margin-top:14px ;
+    border: none;
+    box-shadow: 0px 4px 5px black;
+    outline: none;
+}
+.addbook_card h1{
+    text-align: center;
+    margin: 0px;
+    color:black ;
+}
+.form button{
+    margin-top: 28px;
+    border: none;
+    padding: 10px 13px;
+    font-weight: bold;
+    border: none;
+    box-shadow:0px 3px 3px black ;
+    color: brown;
+}
+.form button:hover{
+    background-color: brown;
+    color: white;
 }

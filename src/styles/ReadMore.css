@@ -1,0 +1,17 @@
+.readcard{
+    background-color: rgb(237, 231, 223);
+    width: 1100px;
+    height: 550px;
+    text-align: left;
+    margin-left: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+.readcard h2{
+    margin-left: 20px;
+    padding-top: 14px;
+}
+.cardfooter{
+    margin-left: 20px;
+    margin-right: 20px;
+}
