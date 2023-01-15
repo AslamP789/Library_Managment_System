@@ -1,0 +1,145 @@
+.userdashboard h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fstuser{
+    background-image: url("https://img.lovepik.com//back_pic/05/63/70/775b5f18e3311da.jpg_wh860.jpg");
+    width: 84%;
+    height: 150px;
+    margin: 2px auto;
+    padding-top: 150px;
+   
+}
+.userblock1{
+    background-color: white;
+    height: 300px;
+    width: 70%;
+    margin-left: 190px;
+    box-shadow: 3px 3px 3px black;
+    padding-top: 20px;
+    padding-left: 30px;
+    
+}
+ 
+.userblock1 button{
+    margin-top: 77px;
+    margin-left: 765px;
+    padding:10px 35px ;
+    border: none;
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+ span{
+    border-bottom: 2px solid rgba(6,147,227,1);
+    font-family: 'Times New Roman', Times, serif;
+}
+.userblock1 button:hover{
+    background-color: rgb(50, 91, 108);
+}
+.scnduser{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/273/365/87/newspaper-fragment-terror-girl-on-run-daily-mail-wallpaper-preview.jpg");
+    width: 84%;
+    height: 120px;
+    margin-top: 250px;
+    margin-left: 115px;
+    padding-top: 220px;
+
+}
+.userblock2{
+    background-color: white;
+    height: 250px;
+    width: 74%;
+    margin-left: 175px;
+    box-shadow: 3px 3px 3px black;
+    padding-top: 100px;
+    text-align: center;
+}
+.userblock2 button{
+   padding: 13px 30px;
+   margin-top: 20px;
+   background-color: grey;
+   font-weight: bold;
+   border: none;
+}
+.thirduser{
+    background-size: cover;
+    margin-top: 280px;
+    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2016/04/Pattern-BG-About.svg");
+    height: 320px;
+    text-align: center;
+    padding-top: 60px;
+}
+.thirduser button{
+    padding: 10px 26px;
+    margin-top: 14px;
+    border: none;
+}
+.thirduser h1{
+    color: white;
+    font-size: 45px;
+}
+.thirduser p{
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.fourthuser{
+    display: flex;
+    
+}
+.userblock41{
+    background-color:rgb(174, 237, 214);
+    height: 320px;
+    width: 50%;
+    
+    padding-top: 80px;
+    text-align: center;
+}
+.fourthuser p{
+    font-size: 19px;
+    padding: 2px;
+    color: rgb(70, 70, 70);
+}
+.fourthuser h1{
+    color: rgb(70, 70, 70);
+}
+
+.fourthuser button{
+    padding: 10px 26px;
+    margin-top: 16px;
+    border: none;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+.userblock42{
+    background-color:rgb(83, 247, 162);
+    height: 320px;
+    width: 50%; 
+    padding-top: 80px;
+    text-align: center;
+}
+.userblock43{
+    display: flex;
+    background-color: rgb(23, 20, 41);
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(16, 13, 38);
+    height: 60px;
+}
+.user_block44 li{
+    display: inline;
+
+}
+.user_block44 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 33px;
+}
+.userblock4_logo{
+    margin-right: 30px;
+}
+.userblock4_logo img{
+    padding-right: 70px;
+} 

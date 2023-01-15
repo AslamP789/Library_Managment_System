@@ -8,8 +8,8 @@ const LandingPage = () => {
                 <div className="selectLoginType">
                     <h1>Library Management System</h1>
                     <div className="image">
-                            <img src="https://icones.pro/wp-content/uploads/2021/02/icone-utilisateur-orange.png" alt="" />
-                            <img src="https://www.citypng.com/public/uploads/preview/hd-profile-user-round-green-icon-symbol-transparent-png-11639594320ayr6vyoidq.png" alt="" />
+                            <img src="images/admin.png" alt="" />
+                            <img src="images/user.png" alt="" />
                     </div>
                     <div className="btn">
                         <div className="btn1">

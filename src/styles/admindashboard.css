@@ -1,0 +1,94 @@
+.admin_dash_board h1{
+    text-align: center;
+}
+.admin_dash_board span{
+    border-bottom: 3px solid red;
+    font-size: 30px;
+    color: rgb(154, 151, 151);
+    font-family: 'Times New Roman', Times, serif;
+}
+.admin_dash_board p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(120, 120, 120);
+    font-size: 18px;
+}
+.admin_dash_board a{
+    color: brown;
+    font-size: 16px;
+}
+ .fstblock{
+   background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2016/02/Pattern-BG-HELP.png"); 
+   
+   width: 800px;
+   height: 150px;
+   margin-left: 370px;
+   padding-top:90px ;
+   box-shadow: 1px 1px 1px  black;
+}
+.fstblock_dash{
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    text-align: left;
+    margin-left: 150px;
+    box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+    
+}
+.scndblock{
+    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2016/02/Pattern-BG-HELP.png"); 
+    text-align: center;
+    margin-top:180px ;
+     width: 800px;
+     height: 150px;  
+     margin-left: 370px; 
+     padding-top: 90px;
+     box-shadow: 1px 1px 1px  black;
+    
+}
+.scndblock_dash{
+    height: 320px;
+    width: 520px;
+    background-color: white;
+    text-align: left;
+    margin-left: 150px;
+    box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+} 
+.thirdblock{
+    background-image: url("https://www.greenwichlibrary.org/wp-content/uploads/2016/02/Pattern-BG-HELP.png");
+    text-align: center;
+    margin-top: 250px;
+    width: 800px;
+     height: 150px; 
+    margin-left: 370px;
+    padding-top:90px ;
+    box-shadow: 1px 1px 1px  black;
+}
+.thirdblock_dash{
+    height: 350px;
+    width: 520px;
+    background-color: white;
+    text-align: left;
+    margin-left: 150px;
+    box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+} 
+
+/* .admindashcard{
+    text-align: center;
+}
+.adminbackground img{
+    height: 300px;
+    width: 70%;
+    
+}
+.admincontent{
+    background-color: aqua;
+    height: 400px;
+    width: 500px;
+    text-align: left;
+    margin-left: 400px;
+    
+} */
